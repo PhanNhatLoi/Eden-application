@@ -1,0 +1,1438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* FarmerMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FarmerMobileTests.m */; };
+		04008BDB29E287A800415FA2 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9525FA00F9141FFA2501B70 /* Inter-ExtraLight.ttf */; };
+		0444A26C29E0719200D64C1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044512DD29E06A130082DBFA /* GoogleService-Info.plist */; };
+		04822A7429E0782700FDA7E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04822A7329E0782700FDA7E7 /* GoogleService-Info.plist */; };
+		049A980929D57546003C12C2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		049A980A29D57546003C12C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		049A980E29D57546003C12C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		049A980F29D57546003C12C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		049A981C29D57549003C12C2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		049A981D29D57549003C12C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		049A982129D57549003C12C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		049A982229D57549003C12C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		04D35C3D29E4171600F37C05 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA929E285AC00415FA2 /* AntDesign.ttf */; };
+		04D35C3E29E4171600F37C05 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA929E285AC00415FA2 /* AntDesign.ttf */; };
+		04D35C3F29E4171700F37C05 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA929E285AC00415FA2 /* AntDesign.ttf */; };
+		04D35C4029E4171800F37C05 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA129E285AC00415FA2 /* Entypo.ttf */; };
+		04D35C4129E4171900F37C05 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA129E285AC00415FA2 /* Entypo.ttf */; };
+		04D35C4229E4171900F37C05 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA129E285AC00415FA2 /* Entypo.ttf */; };
+		04D35C4429E4171C00F37C05 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA529E285AC00415FA2 /* EvilIcons.ttf */; };
+		04D35C4529E4171C00F37C05 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA529E285AC00415FA2 /* EvilIcons.ttf */; };
+		04D35C4629E4171C00F37C05 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA529E285AC00415FA2 /* EvilIcons.ttf */; };
+		04D35C4729E4171F00F37C05 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA729E285AC00415FA2 /* Feather.ttf */; };
+		04D35C4829E4171F00F37C05 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA729E285AC00415FA2 /* Feather.ttf */; };
+		04D35C4929E4171F00F37C05 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA729E285AC00415FA2 /* Feather.ttf */; };
+		04D35C4A29E4172200F37C05 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA629E285AC00415FA2 /* FontAwesome.ttf */; };
+		04D35C4B29E4172200F37C05 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA629E285AC00415FA2 /* FontAwesome.ttf */; };
+		04D35C4C29E4172500F37C05 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA629E285AC00415FA2 /* FontAwesome.ttf */; };
+		04D35C4D29E4172800F37C05 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA029E285AC00415FA2 /* FontAwesome5_Regular.ttf */; };
+		04D35C4E29E4172900F37C05 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA029E285AC00415FA2 /* FontAwesome5_Regular.ttf */; };
+		04D35C4F29E4172900F37C05 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA029E285AC00415FA2 /* FontAwesome5_Regular.ttf */; };
+		04D35C5029E4172C00F37C05 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9C29E285AC00415FA2 /* FontAwesome5_Brands.ttf */; };
+		04D35C5129E4172C00F37C05 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9C29E285AC00415FA2 /* FontAwesome5_Brands.ttf */; };
+		04D35C5229E4172D00F37C05 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9C29E285AC00415FA2 /* FontAwesome5_Brands.ttf */; };
+		04D35C5329E4173000F37C05 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BAA29E285AC00415FA2 /* FontAwesome5_Solid.ttf */; };
+		04D35C5429E4173000F37C05 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BAA29E285AC00415FA2 /* FontAwesome5_Solid.ttf */; };
+		04D35C5529E4173100F37C05 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BAA29E285AC00415FA2 /* FontAwesome5_Solid.ttf */; };
+		04D35C5629E4173300F37C05 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA429E285AC00415FA2 /* Fontisto.ttf */; };
+		04D35C5729E4173300F37C05 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA429E285AC00415FA2 /* Fontisto.ttf */; };
+		04D35C5829E4173400F37C05 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA429E285AC00415FA2 /* Fontisto.ttf */; };
+		04D35C5929E4173600F37C05 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9E29E285AC00415FA2 /* Foundation.ttf */; };
+		04D35C5A29E4173600F37C05 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9E29E285AC00415FA2 /* Foundation.ttf */; };
+		04D35C5B29E4173700F37C05 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9E29E285AC00415FA2 /* Foundation.ttf */; };
+		04D35C5C29E4173D00F37C05 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9D29E285AC00415FA2 /* Ionicons.ttf */; };
+		04D35C5D29E4173E00F37C05 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9D29E285AC00415FA2 /* Ionicons.ttf */; };
+		04D35C5E29E4173E00F37C05 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9D29E285AC00415FA2 /* Ionicons.ttf */; };
+		04D35C5F29E4174100F37C05 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA329E285AC00415FA2 /* MaterialCommunityIcons.ttf */; };
+		04D35C6029E4174100F37C05 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA329E285AC00415FA2 /* MaterialCommunityIcons.ttf */; };
+		04D35C6129E4174200F37C05 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA329E285AC00415FA2 /* MaterialCommunityIcons.ttf */; };
+		04D35C6229E4174400F37C05 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9F29E285AC00415FA2 /* MaterialIcons.ttf */; };
+		04D35C6329E4174500F37C05 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9F29E285AC00415FA2 /* MaterialIcons.ttf */; };
+		04D35C6429E4174500F37C05 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9F29E285AC00415FA2 /* MaterialIcons.ttf */; };
+		04D35C6529E4174800F37C05 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9B29E285AC00415FA2 /* Octicons.ttf */; };
+		04D35C6629E4174900F37C05 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9B29E285AC00415FA2 /* Octicons.ttf */; };
+		04D35C6729E4174900F37C05 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008B9B29E285AC00415FA2 /* Octicons.ttf */; };
+		04D35C6829E4174B00F37C05 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA229E285AC00415FA2 /* SimpleLineIcons.ttf */; };
+		04D35C6929E4174C00F37C05 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA229E285AC00415FA2 /* SimpleLineIcons.ttf */; };
+		04D35C6A29E4174C00F37C05 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA229E285AC00415FA2 /* SimpleLineIcons.ttf */; };
+		04D35C6B29E4174F00F37C05 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA829E285AC00415FA2 /* Zocial.ttf */; };
+		04D35C6C29E4174F00F37C05 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA829E285AC00415FA2 /* Zocial.ttf */; };
+		04D35C6D29E4175000F37C05 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04008BA829E285AC00415FA2 /* Zocial.ttf */; };
+		04FC279B29E24C07002D365B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306BF23192564BE7AB373613 /* Inter-Black.ttf */; };
+		04FC279C29E24C07002D365B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3A1464F201A4AADA03CA791 /* Inter-Bold.ttf */; };
+		04FC279D29E24C07002D365B /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364AB5AE159A4DB9802A22BC /* Inter-ExtraBold.ttf */; };
+		04FC279E29E24C07002D365B /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9525FA00F9141FFA2501B70 /* Inter-ExtraLight.ttf */; };
+		04FC279F29E24C07002D365B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59C75AA525244D369E93969F /* Inter-Light.ttf */; };
+		04FC27A029E24C07002D365B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F98A90292245E28D23CC20 /* Inter-Medium.ttf */; };
+		04FC27A129E24C07002D365B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F44DD419C8D42BFA57EAEC3 /* Inter-Regular.ttf */; };
+		04FC27A229E24C07002D365B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7049F4C3048467CA945273C /* Inter-SemiBold.ttf */; };
+		04FC27A329E24C07002D365B /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 370C0EC8793640E5AEC43A45 /* Inter-Thin.ttf */; };
+		04FC27A429E24C07002D365B /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87A15ED31FC3468192EB9BEF /* Inter-VariableFont_slnt,wght.ttf */; };
+		04FC27A529E24C10002D365B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306BF23192564BE7AB373613 /* Inter-Black.ttf */; };
+		04FC27A629E24C10002D365B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3A1464F201A4AADA03CA791 /* Inter-Bold.ttf */; };
+		04FC27A729E24C10002D365B /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364AB5AE159A4DB9802A22BC /* Inter-ExtraBold.ttf */; };
+		04FC27A829E24C10002D365B /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9525FA00F9141FFA2501B70 /* Inter-ExtraLight.ttf */; };
+		04FC27A929E24C10002D365B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59C75AA525244D369E93969F /* Inter-Light.ttf */; };
+		04FC27AA29E24C10002D365B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F98A90292245E28D23CC20 /* Inter-Medium.ttf */; };
+		04FC27AB29E24C10002D365B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F44DD419C8D42BFA57EAEC3 /* Inter-Regular.ttf */; };
+		04FC27AC29E24C10002D365B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7049F4C3048467CA945273C /* Inter-SemiBold.ttf */; };
+		04FC27AD29E24C10002D365B /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 370C0EC8793640E5AEC43A45 /* Inter-Thin.ttf */; };
+		04FC27AE29E24C10002D365B /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87A15ED31FC3468192EB9BEF /* Inter-VariableFont_slnt,wght.ttf */; };
+		04FC27AF29E24C1E002D365B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04822A7329E0782700FDA7E7 /* GoogleService-Info.plist */; };
+		04FC27B029E254AA002D365B /* FarmerMobile-stag-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049A982A29D57549003C12C2 /* FarmerMobile-stag-Info.plist */; };
+		04FC27B129E254AD002D365B /* FarmerMobile-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049A981729D57546003C12C2 /* FarmerMobile-dev-Info.plist */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2B794F83C9C24596B5FAAAA1 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364AB5AE159A4DB9802A22BC /* Inter-ExtraBold.ttf */; };
+		3E487484E3F4A00B57F17645 /* Pods_FarmerMobileCommonPods_FarmerMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE4B2FE6691E669B7C6C3E6 /* Pods_FarmerMobileCommonPods_FarmerMobile.framework */; };
+		47FE5B02F4C347409343AF37 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306BF23192564BE7AB373613 /* Inter-Black.ttf */; };
+		675F2DF8D3C84E703C99B441 /* Pods_FarmerMobileCommonPods_FarmerMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F168445B6DB3CB1C86CD23C7 /* Pods_FarmerMobileCommonPods_FarmerMobileTests.framework */; };
+		80E8B3FA4D237F679F29F8A7 /* Pods_FarmerMobileCommonPods_FarmerMobileDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AA3302D7D9106515A25219 /* Pods_FarmerMobileCommonPods_FarmerMobileDev.framework */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81CF14BB2F2448A49868041B /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 370C0EC8793640E5AEC43A45 /* Inter-Thin.ttf */; };
+		A07480C2F4A94C17A9AE2028 /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87A15ED31FC3468192EB9BEF /* Inter-VariableFont_slnt,wght.ttf */; };
+		A429A41FD8BAD12416BB433E /* Pods_FarmerMobileCommonPods_FarmerMobileStag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FF2ACF739175C89123C889 /* Pods_FarmerMobileCommonPods_FarmerMobileStag.framework */; };
+		AE69E53FD5F6464A9CBBEE90 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59C75AA525244D369E93969F /* Inter-Light.ttf */; };
+		BE3D56CB148E4B0EB78551CE /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3A1464F201A4AADA03CA791 /* Inter-Bold.ttf */; };
+		C6FD954BCCBD4FF8B3836088 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F98A90292245E28D23CC20 /* Inter-Medium.ttf */; };
+		D223AF9E99AE4999A1B63D5E /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F44DD419C8D42BFA57EAEC3 /* Inter-Regular.ttf */; };
+		E3784976975449849628366F /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7049F4C3048467CA945273C /* Inter-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = FarmerMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0436D6FC29EF838C00CE0022 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* FarmerMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmerMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* FarmerMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarmerMobileTests.m; sourceTree = "<group>"; };
+		03B26E5E5649748D6CE25DA7 /* Pods-FarmerMobileCommonPods-FarmerMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMobileCommonPods-FarmerMobileTests.release.xcconfig"; path = "Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileTests/Pods-FarmerMobileCommonPods-FarmerMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		04008B9B29E285AC00415FA2 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		04008B9C29E285AC00415FA2 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		04008B9D29E285AC00415FA2 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		04008B9E29E285AC00415FA2 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		04008B9F29E285AC00415FA2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		04008BA029E285AC00415FA2 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		04008BA129E285AC00415FA2 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		04008BA229E285AC00415FA2 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		04008BA329E285AC00415FA2 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		04008BA429E285AC00415FA2 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		04008BA529E285AC00415FA2 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		04008BA629E285AC00415FA2 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		04008BA729E285AC00415FA2 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		04008BA829E285AC00415FA2 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		04008BA929E285AC00415FA2 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		04008BAA29E285AC00415FA2 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		0436D6F629EF838C00CE0022 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0436D6F829EF838C00CE0022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044512DD29E06A130082DBFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "FarmerMobile/GoogleService/prod/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04822A7329E0782700FDA7E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "FarmerMobile/GoogleService/dev/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0489369429E25611009CD7A9 /* FarmerMobileStag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FarmerMobileStag.entitlements; sourceTree = "<group>"; };
+		0489369529E25616009CD7A9 /* FarmerMobileDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FarmerMobileDev.entitlements; sourceTree = "<group>"; };
+		0489369629E2561A009CD7A9 /* FarmerMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = FarmerMobile.entitlements; path = FarmerMobile/FarmerMobile.entitlements; sourceTree = "<group>"; };
+		049A981629D57546003C12C2 /* FarmerMobileDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmerMobileDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049A981729D57546003C12C2 /* FarmerMobile-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FarmerMobile-dev-Info.plist"; sourceTree = SOURCE_ROOT; };
+		049A982929D57549003C12C2 /* FarmerMobileStag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmerMobileStag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049A982A29D57549003C12C2 /* FarmerMobile-stag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FarmerMobile-stag-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0F44DD419C8D42BFA57EAEC3 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* FarmerMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmerMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FarmerMobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FarmerMobile/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FarmerMobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FarmerMobile/main.m; sourceTree = "<group>"; };
+		27FF2ACF739175C89123C889 /* Pods_FarmerMobileCommonPods_FarmerMobileStag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmerMobileCommonPods_FarmerMobileStag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9CD52109970B794B45813A /* Pods-FarmerMobileCommonPods-FarmerMobileDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMobileCommonPods-FarmerMobileDev.debug.xcconfig"; path = "Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileDev/Pods-FarmerMobileCommonPods-FarmerMobileDev.debug.xcconfig"; sourceTree = "<group>"; };
+		306BF23192564BE7AB373613 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		364AB5AE159A4DB9802A22BC /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		370C0EC8793640E5AEC43A45 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		41C61ACF7C9B99EA688E9245 /* Pods-FarmerMobileCommonPods-FarmerMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMobileCommonPods-FarmerMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileTests/Pods-FarmerMobileCommonPods-FarmerMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58AA3302D7D9106515A25219 /* Pods_FarmerMobileCommonPods_FarmerMobileDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmerMobileCommonPods_FarmerMobileDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C75AA525244D369E93969F /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		62088F07574F44AEEA5EB048 /* Pods-FarmerMobileCommonPods-FarmerMobileDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMobileCommonPods-FarmerMobileDev.release.xcconfig"; path = "Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileDev/Pods-FarmerMobileCommonPods-FarmerMobileDev.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FarmerMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87A15ED31FC3468192EB9BEF /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-VariableFont_slnt,wght.ttf"; path = "../assets/fonts/Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		889C6D4D0FC6F2FC368B80D6 /* Pods-FarmerMobileCommonPods-FarmerMobileStag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMobileCommonPods-FarmerMobileStag.release.xcconfig"; path = "Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileStag/Pods-FarmerMobileCommonPods-FarmerMobileStag.release.xcconfig"; sourceTree = "<group>"; };
+		B9525FA00F9141FFA2501B70 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		BF39AAF5169CEEA18BAFC370 /* Pods-FarmerMobileCommonPods-FarmerMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMobileCommonPods-FarmerMobile.debug.xcconfig"; path = "Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobile/Pods-FarmerMobileCommonPods-FarmerMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		D3A1464F201A4AADA03CA791 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		D4E6027ACA9CBF3F965B87B0 /* Pods-FarmerMobileCommonPods-FarmerMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMobileCommonPods-FarmerMobile.release.xcconfig"; path = "Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobile/Pods-FarmerMobileCommonPods-FarmerMobile.release.xcconfig"; sourceTree = "<group>"; };
+		E5E8E5FECF83B4044023290D /* Pods-FarmerMobileCommonPods-FarmerMobileStag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMobileCommonPods-FarmerMobileStag.debug.xcconfig"; path = "Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileStag/Pods-FarmerMobileCommonPods-FarmerMobileStag.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F98A90292245E28D23CC20 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		E7049F4C3048467CA945273C /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F168445B6DB3CB1C86CD23C7 /* Pods_FarmerMobileCommonPods_FarmerMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmerMobileCommonPods_FarmerMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE4B2FE6691E669B7C6C3E6 /* Pods_FarmerMobileCommonPods_FarmerMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmerMobileCommonPods_FarmerMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675F2DF8D3C84E703C99B441 /* Pods_FarmerMobileCommonPods_FarmerMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A980B29D57546003C12C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E8B3FA4D237F679F29F8A7 /* Pods_FarmerMobileCommonPods_FarmerMobileDev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A981E29D57549003C12C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A429A41FD8BAD12416BB433E /* Pods_FarmerMobileCommonPods_FarmerMobileStag.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E487484E3F4A00B57F17645 /* Pods_FarmerMobileCommonPods_FarmerMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* FarmerMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* FarmerMobileTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = FarmerMobileTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0436D6F529EF838C00CE0022 /* farm */ = {
+			isa = PBXGroup;
+			children = (
+				0436D6F629EF838C00CE0022 /* NotificationService.swift */,
+				0436D6F829EF838C00CE0022 /* Info.plist */,
+			);
+			path = farm;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* FarmerMobile */ = {
+			isa = PBXGroup;
+			children = (
+				0489369629E2561A009CD7A9 /* FarmerMobile.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = FarmerMobile;
+			sourceTree = "<group>";
+		};
+		1D348CFAE4144287BBABEAF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04008BA929E285AC00415FA2 /* AntDesign.ttf */,
+				04008BA129E285AC00415FA2 /* Entypo.ttf */,
+				04008BA529E285AC00415FA2 /* EvilIcons.ttf */,
+				04008BA729E285AC00415FA2 /* Feather.ttf */,
+				04008BA629E285AC00415FA2 /* FontAwesome.ttf */,
+				04008B9C29E285AC00415FA2 /* FontAwesome5_Brands.ttf */,
+				04008BA029E285AC00415FA2 /* FontAwesome5_Regular.ttf */,
+				04008BAA29E285AC00415FA2 /* FontAwesome5_Solid.ttf */,
+				04008BA429E285AC00415FA2 /* Fontisto.ttf */,
+				04008B9E29E285AC00415FA2 /* Foundation.ttf */,
+				04008B9D29E285AC00415FA2 /* Ionicons.ttf */,
+				04008BA329E285AC00415FA2 /* MaterialCommunityIcons.ttf */,
+				04008B9F29E285AC00415FA2 /* MaterialIcons.ttf */,
+				04008B9B29E285AC00415FA2 /* Octicons.ttf */,
+				04008BA229E285AC00415FA2 /* SimpleLineIcons.ttf */,
+				04008BA829E285AC00415FA2 /* Zocial.ttf */,
+				306BF23192564BE7AB373613 /* Inter-Black.ttf */,
+				D3A1464F201A4AADA03CA791 /* Inter-Bold.ttf */,
+				364AB5AE159A4DB9802A22BC /* Inter-ExtraBold.ttf */,
+				B9525FA00F9141FFA2501B70 /* Inter-ExtraLight.ttf */,
+				59C75AA525244D369E93969F /* Inter-Light.ttf */,
+				E5F98A90292245E28D23CC20 /* Inter-Medium.ttf */,
+				0F44DD419C8D42BFA57EAEC3 /* Inter-Regular.ttf */,
+				E7049F4C3048467CA945273C /* Inter-SemiBold.ttf */,
+				370C0EC8793640E5AEC43A45 /* Inter-Thin.ttf */,
+				87A15ED31FC3468192EB9BEF /* Inter-VariableFont_slnt,wght.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				FCE4B2FE6691E669B7C6C3E6 /* Pods_FarmerMobileCommonPods_FarmerMobile.framework */,
+				58AA3302D7D9106515A25219 /* Pods_FarmerMobileCommonPods_FarmerMobileDev.framework */,
+				27FF2ACF739175C89123C889 /* Pods_FarmerMobileCommonPods_FarmerMobileStag.framework */,
+				F168445B6DB3CB1C86CD23C7 /* Pods_FarmerMobileCommonPods_FarmerMobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				0489369529E25616009CD7A9 /* FarmerMobileDev.entitlements */,
+				0489369429E25611009CD7A9 /* FarmerMobileStag.entitlements */,
+				044512DD29E06A130082DBFA /* GoogleService-Info.plist */,
+				04822A7329E0782700FDA7E7 /* GoogleService-Info.plist */,
+				13B07FAE1A68108700A75B9A /* FarmerMobile */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* FarmerMobileTests */,
+				0436D6F529EF838C00CE0022 /* farm */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				049A981729D57546003C12C2 /* FarmerMobile-dev-Info.plist */,
+				049A982A29D57549003C12C2 /* FarmerMobile-stag-Info.plist */,
+				1D348CFAE4144287BBABEAF8 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* FarmerMobile.app */,
+				00E356EE1AD99517003FC87E /* FarmerMobileTests.xctest */,
+				049A981629D57546003C12C2 /* FarmerMobileDev.app */,
+				049A982929D57549003C12C2 /* FarmerMobileStag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF39AAF5169CEEA18BAFC370 /* Pods-FarmerMobileCommonPods-FarmerMobile.debug.xcconfig */,
+				D4E6027ACA9CBF3F965B87B0 /* Pods-FarmerMobileCommonPods-FarmerMobile.release.xcconfig */,
+				2B9CD52109970B794B45813A /* Pods-FarmerMobileCommonPods-FarmerMobileDev.debug.xcconfig */,
+				62088F07574F44AEEA5EB048 /* Pods-FarmerMobileCommonPods-FarmerMobileDev.release.xcconfig */,
+				E5E8E5FECF83B4044023290D /* Pods-FarmerMobileCommonPods-FarmerMobileStag.debug.xcconfig */,
+				889C6D4D0FC6F2FC368B80D6 /* Pods-FarmerMobileCommonPods-FarmerMobileStag.release.xcconfig */,
+				41C61ACF7C9B99EA688E9245 /* Pods-FarmerMobileCommonPods-FarmerMobileTests.debug.xcconfig */,
+				03B26E5E5649748D6CE25DA7 /* Pods-FarmerMobileCommonPods-FarmerMobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* FarmerMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FarmerMobileTests" */;
+			buildPhases = (
+				93EC03FC16D8F7FEFDD9C379 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				1DAB5C4625FAADF89C0A9A4C /* [CP] Embed Pods Frameworks */,
+				544DA8C78D5611EA1D8CABB4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = FarmerMobileTests;
+			productName = FarmerMobileTests;
+			productReference = 00E356EE1AD99517003FC87E /* FarmerMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049A980529D57546003C12C2 /* FarmerMobileDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A981329D57546003C12C2 /* Build configuration list for PBXNativeTarget "FarmerMobileDev" */;
+			buildPhases = (
+				C65CE40E40002EDD26F29FBD /* [CP] Check Pods Manifest.lock */,
+				049A980729D57546003C12C2 /* Start Packager */,
+				049A980829D57546003C12C2 /* Sources */,
+				049A980B29D57546003C12C2 /* Frameworks */,
+				049A980D29D57546003C12C2 /* Resources */,
+				049A981029D57546003C12C2 /* Bundle React Native code and images */,
+				2FE8EC877510A0F53FFBC18B /* [CP] Embed Pods Frameworks */,
+				2B6A3B433C565B7143C15C89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmerMobileDev;
+			productName = FarmerMobile;
+			productReference = 049A981629D57546003C12C2 /* FarmerMobileDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049A981829D57549003C12C2 /* FarmerMobileStag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A982629D57549003C12C2 /* Build configuration list for PBXNativeTarget "FarmerMobileStag" */;
+			buildPhases = (
+				A765487BD56B937B257547F9 /* [CP] Check Pods Manifest.lock */,
+				049A981A29D57549003C12C2 /* Start Packager */,
+				049A981B29D57549003C12C2 /* Sources */,
+				049A981E29D57549003C12C2 /* Frameworks */,
+				049A982029D57549003C12C2 /* Resources */,
+				049A982329D57549003C12C2 /* Bundle React Native code and images */,
+				D182FDD7AED059C885025EC7 /* [CP] Embed Pods Frameworks */,
+				1480DFF903C6B8B53869851A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmerMobileStag;
+			productName = FarmerMobile;
+			productReference = 049A982929D57549003C12C2 /* FarmerMobileStag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B07F861A680F5B00A75B9A /* FarmerMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FarmerMobile" */;
+			buildPhases = (
+				38A51E2484F7F1FE943FE717 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D32BC58CE98542C98830249B /* [CP] Embed Pods Frameworks */,
+				E928E0049BB5FD5B91F3764C /* [CP] Copy Pods Resources */,
+				0436D6FC29EF838C00CE0022 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmerMobile;
+			productName = FarmerMobile;
+			productReference = 13B07F961A680F5B00A75B9A /* FarmerMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FarmerMobile" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* FarmerMobile */,
+				00E356ED1AD99517003FC87E /* FarmerMobileTests */,
+				049A980529D57546003C12C2 /* FarmerMobileDev */,
+				049A981829D57549003C12C2 /* FarmerMobileStag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A980D29D57546003C12C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC27B129E254AD002D365B /* FarmerMobile-dev-Info.plist in Resources */,
+				049A980E29D57546003C12C2 /* LaunchScreen.storyboard in Resources */,
+				049A980F29D57546003C12C2 /* Images.xcassets in Resources */,
+				04D35C5629E4173300F37C05 /* Fontisto.ttf in Resources */,
+				04D35C4F29E4172900F37C05 /* FontAwesome5_Regular.ttf in Resources */,
+				04822A7429E0782700FDA7E7 /* GoogleService-Info.plist in Resources */,
+				04FC279B29E24C07002D365B /* Inter-Black.ttf in Resources */,
+				04FC279C29E24C07002D365B /* Inter-Bold.ttf in Resources */,
+				04D35C4129E4171900F37C05 /* Entypo.ttf in Resources */,
+				04FC279D29E24C07002D365B /* Inter-ExtraBold.ttf in Resources */,
+				04D35C5929E4173600F37C05 /* Foundation.ttf in Resources */,
+				04D35C6629E4174900F37C05 /* Octicons.ttf in Resources */,
+				04D35C5F29E4174100F37C05 /* MaterialCommunityIcons.ttf in Resources */,
+				04D35C5C29E4173D00F37C05 /* Ionicons.ttf in Resources */,
+				04FC279E29E24C07002D365B /* Inter-ExtraLight.ttf in Resources */,
+				04D35C5329E4173000F37C05 /* FontAwesome5_Solid.ttf in Resources */,
+				04D35C6229E4174400F37C05 /* MaterialIcons.ttf in Resources */,
+				04D35C4829E4171F00F37C05 /* Feather.ttf in Resources */,
+				04FC279F29E24C07002D365B /* Inter-Light.ttf in Resources */,
+				04FC27A029E24C07002D365B /* Inter-Medium.ttf in Resources */,
+				04D35C5129E4172C00F37C05 /* FontAwesome5_Brands.ttf in Resources */,
+				04D35C3E29E4171600F37C05 /* AntDesign.ttf in Resources */,
+				04D35C4529E4171C00F37C05 /* EvilIcons.ttf in Resources */,
+				04D35C6C29E4174F00F37C05 /* Zocial.ttf in Resources */,
+				04FC27A129E24C07002D365B /* Inter-Regular.ttf in Resources */,
+				04FC27A229E24C07002D365B /* Inter-SemiBold.ttf in Resources */,
+				04FC27A329E24C07002D365B /* Inter-Thin.ttf in Resources */,
+				04D35C4B29E4172200F37C05 /* FontAwesome.ttf in Resources */,
+				04D35C6829E4174B00F37C05 /* SimpleLineIcons.ttf in Resources */,
+				04FC27A429E24C07002D365B /* Inter-VariableFont_slnt,wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A982029D57549003C12C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC27B029E254AA002D365B /* FarmerMobile-stag-Info.plist in Resources */,
+				049A982129D57549003C12C2 /* LaunchScreen.storyboard in Resources */,
+				04D35C5729E4173300F37C05 /* Fontisto.ttf in Resources */,
+				04D35C4E29E4172900F37C05 /* FontAwesome5_Regular.ttf in Resources */,
+				049A982229D57549003C12C2 /* Images.xcassets in Resources */,
+				04FC27AF29E24C1E002D365B /* GoogleService-Info.plist in Resources */,
+				04FC27A529E24C10002D365B /* Inter-Black.ttf in Resources */,
+				04D35C4229E4171900F37C05 /* Entypo.ttf in Resources */,
+				04FC27A629E24C10002D365B /* Inter-Bold.ttf in Resources */,
+				04D35C5A29E4173600F37C05 /* Foundation.ttf in Resources */,
+				04D35C6529E4174800F37C05 /* Octicons.ttf in Resources */,
+				04D35C6029E4174100F37C05 /* MaterialCommunityIcons.ttf in Resources */,
+				04D35C5D29E4173E00F37C05 /* Ionicons.ttf in Resources */,
+				04FC27A729E24C10002D365B /* Inter-ExtraBold.ttf in Resources */,
+				04D35C5429E4173000F37C05 /* FontAwesome5_Solid.ttf in Resources */,
+				04D35C6329E4174500F37C05 /* MaterialIcons.ttf in Resources */,
+				04D35C4929E4171F00F37C05 /* Feather.ttf in Resources */,
+				04FC27A829E24C10002D365B /* Inter-ExtraLight.ttf in Resources */,
+				04FC27A929E24C10002D365B /* Inter-Light.ttf in Resources */,
+				04D35C5229E4172D00F37C05 /* FontAwesome5_Brands.ttf in Resources */,
+				04D35C3F29E4171700F37C05 /* AntDesign.ttf in Resources */,
+				04D35C4629E4171C00F37C05 /* EvilIcons.ttf in Resources */,
+				04D35C6B29E4174F00F37C05 /* Zocial.ttf in Resources */,
+				04FC27AA29E24C10002D365B /* Inter-Medium.ttf in Resources */,
+				04FC27AB29E24C10002D365B /* Inter-Regular.ttf in Resources */,
+				04FC27AC29E24C10002D365B /* Inter-SemiBold.ttf in Resources */,
+				04D35C4C29E4172500F37C05 /* FontAwesome.ttf in Resources */,
+				04D35C6A29E4174C00F37C05 /* SimpleLineIcons.ttf in Resources */,
+				04FC27AD29E24C10002D365B /* Inter-Thin.ttf in Resources */,
+				04FC27AE29E24C10002D365B /* Inter-VariableFont_slnt,wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04008BDB29E287A800415FA2 /* Inter-ExtraLight.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				04D35C5829E4173400F37C05 /* Fontisto.ttf in Resources */,
+				04D35C4D29E4172800F37C05 /* FontAwesome5_Regular.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0444A26C29E0719200D64C1E /* GoogleService-Info.plist in Resources */,
+				47FE5B02F4C347409343AF37 /* Inter-Black.ttf in Resources */,
+				04D35C4029E4171800F37C05 /* Entypo.ttf in Resources */,
+				BE3D56CB148E4B0EB78551CE /* Inter-Bold.ttf in Resources */,
+				04D35C5B29E4173700F37C05 /* Foundation.ttf in Resources */,
+				04D35C6729E4174900F37C05 /* Octicons.ttf in Resources */,
+				04D35C6129E4174200F37C05 /* MaterialCommunityIcons.ttf in Resources */,
+				04D35C5E29E4173E00F37C05 /* Ionicons.ttf in Resources */,
+				2B794F83C9C24596B5FAAAA1 /* Inter-ExtraBold.ttf in Resources */,
+				04D35C5529E4173100F37C05 /* FontAwesome5_Solid.ttf in Resources */,
+				04D35C6429E4174500F37C05 /* MaterialIcons.ttf in Resources */,
+				04D35C4729E4171F00F37C05 /* Feather.ttf in Resources */,
+				AE69E53FD5F6464A9CBBEE90 /* Inter-Light.ttf in Resources */,
+				04D35C5029E4172C00F37C05 /* FontAwesome5_Brands.ttf in Resources */,
+				04D35C3D29E4171600F37C05 /* AntDesign.ttf in Resources */,
+				04D35C4429E4171C00F37C05 /* EvilIcons.ttf in Resources */,
+				04D35C6D29E4175000F37C05 /* Zocial.ttf in Resources */,
+				C6FD954BCCBD4FF8B3836088 /* Inter-Medium.ttf in Resources */,
+				D223AF9E99AE4999A1B63D5E /* Inter-Regular.ttf in Resources */,
+				E3784976975449849628366F /* Inter-SemiBold.ttf in Resources */,
+				04D35C4A29E4172200F37C05 /* FontAwesome.ttf in Resources */,
+				04D35C6929E4174C00F37C05 /* SimpleLineIcons.ttf in Resources */,
+				81CF14BB2F2448A49868041B /* Inter-Thin.ttf in Resources */,
+				A07480C2F4A94C17A9AE2028 /* Inter-VariableFont_slnt,wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		049A980729D57546003C12C2 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		049A981029D57546003C12C2 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		049A981A29D57549003C12C2 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		049A982329D57549003C12C2 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		1480DFF903C6B8B53869851A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileStag/Pods-FarmerMobileCommonPods-FarmerMobileStag-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileStag/Pods-FarmerMobileCommonPods-FarmerMobileStag-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileStag/Pods-FarmerMobileCommonPods-FarmerMobileStag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DAB5C4625FAADF89C0A9A4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileTests/Pods-FarmerMobileCommonPods-FarmerMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileTests/Pods-FarmerMobileCommonPods-FarmerMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileTests/Pods-FarmerMobileCommonPods-FarmerMobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B6A3B433C565B7143C15C89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileDev/Pods-FarmerMobileCommonPods-FarmerMobileDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileDev/Pods-FarmerMobileCommonPods-FarmerMobileDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileDev/Pods-FarmerMobileCommonPods-FarmerMobileDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FE8EC877510A0F53FFBC18B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileDev/Pods-FarmerMobileCommonPods-FarmerMobileDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileDev/Pods-FarmerMobileCommonPods-FarmerMobileDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileDev/Pods-FarmerMobileCommonPods-FarmerMobileDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38A51E2484F7F1FE943FE717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FarmerMobileCommonPods-FarmerMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544DA8C78D5611EA1D8CABB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileTests/Pods-FarmerMobileCommonPods-FarmerMobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileTests/Pods-FarmerMobileCommonPods-FarmerMobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileTests/Pods-FarmerMobileCommonPods-FarmerMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EC03FC16D8F7FEFDD9C379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FarmerMobileCommonPods-FarmerMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A765487BD56B937B257547F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FarmerMobileCommonPods-FarmerMobileStag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C65CE40E40002EDD26F29FBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FarmerMobileCommonPods-FarmerMobileDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D182FDD7AED059C885025EC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileStag/Pods-FarmerMobileCommonPods-FarmerMobileStag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileStag/Pods-FarmerMobileCommonPods-FarmerMobileStag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobileStag/Pods-FarmerMobileCommonPods-FarmerMobileStag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32BC58CE98542C98830249B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobile/Pods-FarmerMobileCommonPods-FarmerMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobile/Pods-FarmerMobileCommonPods-FarmerMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobile/Pods-FarmerMobileCommonPods-FarmerMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E928E0049BB5FD5B91F3764C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobile/Pods-FarmerMobileCommonPods-FarmerMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobile/Pods-FarmerMobileCommonPods-FarmerMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMobileCommonPods-FarmerMobile/Pods-FarmerMobileCommonPods-FarmerMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* FarmerMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A980829D57546003C12C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A980929D57546003C12C2 /* AppDelegate.mm in Sources */,
+				049A980A29D57546003C12C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A981B29D57549003C12C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A981C29D57549003C12C2 /* AppDelegate.mm in Sources */,
+				049A981D29D57549003C12C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* FarmerMobile */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C61ACF7C9B99EA688E9245 /* Pods-FarmerMobileCommonPods-FarmerMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FarmerMobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmerMobile.app/FarmerMobile";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B26E5E5649748D6CE25DA7 /* Pods-FarmerMobileCommonPods-FarmerMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = FarmerMobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmerMobile.app/FarmerMobile";
+			};
+			name = Release;
+		};
+		049A981429D57546003C12C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9CD52109970B794B45813A /* Pods-FarmerMobileCommonPods-FarmerMobileDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FarmerMobileDev.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UGZ8G662;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "FarmerMobile-dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Farmer Mobile Dev";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edenhub.farm.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		049A981529D57546003C12C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62088F07574F44AEEA5EB048 /* Pods-FarmerMobileCommonPods-FarmerMobileDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FarmerMobileDev.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UGZ8G662;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "FarmerMobile-dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Farmer Mobile Dev";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edenhub.farm.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		049A982729D57549003C12C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E8E5FECF83B4044023290D /* Pods-FarmerMobileCommonPods-FarmerMobileStag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FarmerMobileStag.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YXXP8C94L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "FarmerMobile-stag-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Farmer Mobile Stag";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edenhub.farm.stag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		049A982829D57549003C12C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889C6D4D0FC6F2FC368B80D6 /* Pods-FarmerMobileCommonPods-FarmerMobileStag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FarmerMobileStag.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YXXP8C94L;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "FarmerMobile-stag-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Farmer Mobile Stag";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edenhub.farm.stag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF39AAF5169CEEA18BAFC370 /* Pods-FarmerMobileCommonPods-FarmerMobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FarmerMobile/FarmerMobile.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = U5UGZ8G662;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = FarmerMobile/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EDEN HUB";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edenhub.farm;
+				PRODUCT_NAME = FarmerMobile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E6027ACA9CBF3F965B87B0 /* Pods-FarmerMobileCommonPods-FarmerMobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FarmerMobile/FarmerMobile.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = U5UGZ8G662;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = FarmerMobile/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EDEN HUB";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edenhub.farm;
+				PRODUCT_NAME = FarmerMobile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FarmerMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049A981329D57546003C12C2 /* Build configuration list for PBXNativeTarget "FarmerMobileDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A981429D57546003C12C2 /* Debug */,
+				049A981529D57546003C12C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049A982629D57549003C12C2 /* Build configuration list for PBXNativeTarget "FarmerMobileStag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A982729D57549003C12C2 /* Debug */,
+				049A982829D57549003C12C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FarmerMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FarmerMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

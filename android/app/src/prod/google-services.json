@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "576786811299",
+    "project_id": "edenhub-b00d2",
+    "storage_bucket": "edenhub-b00d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576786811299:android:9160dac05ceb91c1ec7216",
+        "android_client_info": {
+          "package_name": "com.edenhub.farm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576786811299-vblgro41smtf6cqufacfmu7dkre6fo3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMEEj6thZQPwUUbwVjj2yBWK2VJDKgzF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576786811299-vblgro41smtf6cqufacfmu7dkre6fo3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
